@@ -1,0 +1,58 @@
+[
+    {
+        "Model":"LightGBM (Boosting)",
+        "Paradigm":"Boosting",
+        "MAE (LKR Lakhs)":6.15,
+        "RMSE (LKR Lakhs)":13.46,
+        "R2 Score":0.9013,
+        "MAPE (%)":15.39
+    },
+    {
+        "Model":"Random Forest (Bagging)",
+        "Paradigm":"Bagging",
+        "MAE (LKR Lakhs)":5.75,
+        "RMSE (LKR Lakhs)":14.24,
+        "R2 Score":0.8894,
+        "MAPE (%)":14.47
+    },
+    {
+        "Model":"CatBoost (Boosting)",
+        "Paradigm":"Boosting",
+        "MAE (LKR Lakhs)":6.57,
+        "RMSE (LKR Lakhs)":14.28,
+        "R2 Score":0.8889,
+        "MAPE (%)":16.8
+    },
+    {
+        "Model":"Hybrid Stacking (RF + XGB + CatBoost)",
+        "Paradigm":"Hybrid Stacking",
+        "MAE (LKR Lakhs)":6.38,
+        "RMSE (LKR Lakhs)":14.33,
+        "R2 Score":0.8881,
+        "MAPE (%)":15.95
+    },
+    {
+        "Model":"XGBoost (Boosting)",
+        "Paradigm":"Boosting",
+        "MAE (LKR Lakhs)":6.45,
+        "RMSE (LKR Lakhs)":14.6,
+        "R2 Score":0.8838,
+        "MAPE (%)":16.32
+    },
+    {
+        "Model":"Gradient Boosting (Boosting)",
+        "Paradigm":"Boosting",
+        "MAE (LKR Lakhs)":6.24,
+        "RMSE (LKR Lakhs)":14.61,
+        "R2 Score":0.8837,
+        "MAPE (%)":16.04
+    },
+    {
+        "Model":"Extra Trees (Bagging)",
+        "Paradigm":"Bagging",
+        "MAE (LKR Lakhs)":5.85,
+        "RMSE (LKR Lakhs)":15.41,
+        "R2 Score":0.8705,
+        "MAPE (%)":14.18
+    }
+]

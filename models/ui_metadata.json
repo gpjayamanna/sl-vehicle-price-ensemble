@@ -1,0 +1,199 @@
+{
+    "brands": [
+        "AUDI",
+        "BMW",
+        "CHERY",
+        "CHEVROLET",
+        "DAIHATSU",
+        "FORD",
+        "HONDA",
+        "HYUNDAI",
+        "KIA",
+        "MAZDA",
+        "MERCEDES-BENZ",
+        "MICRO",
+        "MITSUBISHI",
+        "NISSAN",
+        "Other",
+        "PERODUA",
+        "PEUGEOT",
+        "RENAULT",
+        "SUZUKI",
+        "TATA",
+        "TOYOTA"
+    ],
+    "models_by_brand": {
+        "AUDI": [
+            "Other"
+        ],
+        "Other": [
+            "Other"
+        ],
+        "BMW": [
+            "Other"
+        ],
+        "CHERY": [
+            "Other",
+            "QQ"
+        ],
+        "CHEVROLET": [
+            "Other"
+        ],
+        "DAIHATSU": [
+            "Other"
+        ],
+        "FORD": [
+            "Other"
+        ],
+        "HONDA": [
+            "FIT GP1",
+            "FIT GP5",
+            "GRACE",
+            "INSIGHT",
+            "Other"
+        ],
+        "HYUNDAI": [
+            "ACCENT",
+            "Other"
+        ],
+        "KIA": [
+            "Other",
+            "RIO"
+        ],
+        "MAZDA": [
+            "DEMIO",
+            "FAMILIA",
+            "Other",
+            "WAGON R"
+        ],
+        "MERCEDES-BENZ": [
+            "Other"
+        ],
+        "MICRO": [
+            "Other",
+            "PANDA",
+            "PANDA CROSS"
+        ],
+        "MITSUBISHI": [
+            "LANCER BOX",
+            "Other"
+        ],
+        "NISSAN": [
+            "FB13",
+            "FB14",
+            "FB15",
+            "MARCH K11",
+            "N16",
+            "Other"
+        ],
+        "PERODUA": [
+            "Other",
+            "VIVA ELITE"
+        ],
+        "PEUGEOT": [
+            "Other"
+        ],
+        "RENAULT": [
+            "KWID",
+            "Other"
+        ],
+        "SUZUKI": [
+            "A-STAR",
+            "ALTO",
+            "ALTO 800",
+            "ALTO JAPAN",
+            "ALTO K10",
+            "ALTO LXI",
+            "CELERIO",
+            "ESTILO",
+            "MARUTI",
+            "MARUTI 800",
+            "Other",
+            "SPACIA",
+            "SWIFT",
+            "WAGON R",
+            "WAGON R FX",
+            "WAGON R FZ",
+            "WAGON R FZ SAFETY",
+            "WAGON R STINGRAY",
+            "WAGON R STINGRAY J STYLE"
+        ],
+        "TATA": [
+            "NANO",
+            "Other"
+        ],
+        "TOYOTA": [
+            "ALLION",
+            "ALLION 240",
+            "ALLION 260",
+            "AQUA",
+            "AQUA G GRADE",
+            "AXIO",
+            "AXIO G GRADE",
+            "AXIO WXB",
+            "BELTA",
+            "CARINA",
+            "COROLLA",
+            "COROLLA 121",
+            "COROLLA 141",
+            "Other",
+            "PASSO",
+            "PREMIO",
+            "PREMIO G SUPERIOR",
+            "PRIUS",
+            "STARLET",
+            "VIOS",
+            "VITZ",
+            "VITZ KSP90",
+            "YARIS"
+        ]
+    },
+    "gears": [
+        "Automatic",
+        "Manual"
+    ],
+    "fuel_types": [
+        "Diesel",
+        "Electric",
+        "Hybrid",
+        "Petrol"
+    ],
+    "towns": [
+        "Anuradapura",
+        "Colombo",
+        "Dehiwala-Mount-Lavinia",
+        "Embilipitiya",
+        "Galle",
+        "Gampaha",
+        "Homagama",
+        "Horana",
+        "Ja-Ela",
+        "Kadawatha",
+        "Kaduwela",
+        "Kalutara",
+        "Kandy",
+        "Kegalle",
+        "Kottawa",
+        "Kuliyapitiya",
+        "Kurunegala",
+        "Maharagama",
+        "Malabe",
+        "Matale",
+        "Matara",
+        "Moratuwa",
+        "Negombo",
+        "Nittambuwa",
+        "Nugegoda",
+        "Other",
+        "Panadura",
+        "Piliyandala",
+        "Polonnaruwa",
+        "Ratnapura",
+        "Wennappuwa"
+    ],
+    "conditions": [
+        "NEW",
+        "USED"
+    ],
+    "best_model_name": "LightGBM (Boosting)"
+}
