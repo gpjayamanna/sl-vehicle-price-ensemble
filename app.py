@@ -474,6 +474,40 @@ with tab2:
 with tab3:
     df_raw = load_sample_data()
     
+    # SHAP Feature Importance Section
+    shap_path = os.path.join(MODELS_DIR, "shap_summary.json")
+    if os.path.exists(shap_path):
+        with open(shap_path, "r") as f:
+            shap_data = json.load(f)
+        shap_df = pd.DataFrame(shap_data)
+
+        st.markdown('<div class="col-title">What Factors Drive Sri Lankan Vehicle Prices?</div>', unsafe_allow_html=True)
+
+
+        fig_shap = px.bar(
+            shap_df.sort_values(by="Impact (Lakhs)"),
+            x="Impact (Lakhs)",
+            y="Factor",
+            orientation="h",
+            text="Relative Importance (%)",
+            title="Average Price Impact per Factor (Lakhs LKR) — SHAP Analysis",
+            color="Impact (Lakhs)",
+            color_continuous_scale=["#1e3a5f", "#2563eb", "#f59e0b", "#ef4444"]
+        )
+        fig_shap.update_traces(texttemplate="%{text}%", textposition="outside")
+        fig_shap.update_layout(
+            plot_bgcolor="rgba(0,0,0,0)",
+            paper_bgcolor="rgba(0,0,0,0)",
+            margin=dict(l=0, r=0, t=40, b=0),
+            height=380,
+            coloraxis_showscale=False,
+            xaxis_title="Avg Price Impact (Lakhs LKR)",
+            yaxis_title=""
+        )
+        st.plotly_chart(fig_shap, use_container_width=True)
+
+        st.markdown('<div style="height: 2rem;"></div>', unsafe_allow_html=True)
+
     col_a1, col_a2 = st.columns(2, gap="medium")
     with col_a1:
         top_brands = df_raw["Brand"].value_counts().head(10).reset_index()

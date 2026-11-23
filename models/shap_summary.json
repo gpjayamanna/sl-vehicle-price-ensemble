@@ -1,0 +1,52 @@
+[
+    {
+        "Factor": "Manufacture Year & Vehicle Age",
+        "Impact (Lakhs)": 17.2,
+        "Relative Importance (%)": 30.0
+    },
+    {
+        "Factor": "Brand & Manufacturer Prestige",
+        "Impact (Lakhs)": 13.12,
+        "Relative Importance (%)": 22.8
+    },
+    {
+        "Factor": "Transmission (Automatic vs Manual)",
+        "Impact (Lakhs)": 11.1,
+        "Relative Importance (%)": 19.3
+    },
+    {
+        "Factor": "Engine Capacity (cc)",
+        "Impact (Lakhs)": 8.38,
+        "Relative Importance (%)": 14.6
+    },
+    {
+        "Factor": "Vehicle Model & Trim Lineage",
+        "Impact (Lakhs)": 4.21,
+        "Relative Importance (%)": 7.3
+    },
+    {
+        "Factor": "Power Options & Feature Equipment",
+        "Impact (Lakhs)": 1.65,
+        "Relative Importance (%)": 2.9
+    },
+    {
+        "Factor": "Location / Geographic Region",
+        "Impact (Lakhs)": 1.06,
+        "Relative Importance (%)": 1.8
+    },
+    {
+        "Factor": "Fuel Type (Hybrid / Petrol / Diesel)",
+        "Impact (Lakhs)": 0.69,
+        "Relative Importance (%)": 1.2
+    },
+    {
+        "Factor": "Vehicle Condition (New vs Used)",
+        "Impact (Lakhs)": 0.02,
+        "Relative Importance (%)": 0.0
+    },
+    {
+        "Factor": "Odometer Mileage & Annual Usage",
+        "Impact (Lakhs)": 0.0,
+        "Relative Importance (%)": 0.0
+    }
+]
