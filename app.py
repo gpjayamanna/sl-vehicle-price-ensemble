@@ -52,7 +52,7 @@ st.markdown("""
         margin: 0;
     }
 
-    /* Force Centered Minimal Navbar across all Streamlit container versions */
+    /* Force Centered Minimal Navbar across all container versions */
     .stTabs, [data-testid="stTabs"] {
         width: 100% !important;
         display: flex !important;

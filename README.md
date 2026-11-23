@@ -5,7 +5,7 @@ This project implements machine learning ensemble models (Bagging, Boosting, and
 ## Project Structure
 - `Sri_Lankan_Vehicle_Price_Ensemble_Modeling.ipynb` : Jupyter notebook with EDA, preprocessing, model training, evaluation, and comparisons.
 - `train_models.py` : Python script to clean data, train models, and export the trained pipeline.
-- `app.py` : Streamlit web dashboard for price prediction and model comparison.
+- `app.py` : Interactive web dashboard for price prediction and model comparison.
 - `data/car_price_dataset.csv` : Dataset containing Sri Lankan car listings.
 - `models/` : Serialized model pipeline and evaluation benchmark metrics.
 
